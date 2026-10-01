@@ -1,3 +1,4 @@
+%%writefile app.py
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -8,13 +9,13 @@ st.set_page_config(page_title="Supply Chain Intelligence Dashboard", layout="wid
 st.title("📦 Supply Chain Intelligence & Risk Dashboard using ML")
 st.markdown("Analyzing delivery performance, demand forecasts, and risk across regions.")
 
-# Load cleaned data
-df = pd.read_csv('/content/drive/MyDrive/supply_chain_project/Data/cleaned_data.csv')
-region_clusters = pd.read_csv('/content/drive/MyDrive/supply_chain_project/Data/region_clusters.csv')
+# Load cleaned data (relative paths for GitHub/Streamlit Cloud)
+df = pd.read_csv('Data/cleaned_data.csv')
+region_clusters = pd.read_csv('Data/region_clusters.csv')
 
 # Load model + columns
-rf_model = joblib.load('/content/drive/MyDrive/supply_chain_project/models/rf_delay_model.pkl')
-model_columns = joblib.load('/content/drive/MyDrive/supply_chain_project/models/model_columns.pkl')
+rf_model = joblib.load('models/rf_delay_model.pkl')
+model_columns = joblib.load('models/model_columns.pkl')
 
 # ---- KPI Section ----
 st.header("📊 Key Performance Indicators")
