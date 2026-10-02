@@ -10,6 +10,23 @@ This project analyzes the DataCo Smart Supply Chain dataset (180,516 orders, $36
 
 The analysis combines descriptive analytics, predictive machine learning, and model explainability to trace delivery delays to their root cause — and validates that finding using four independent methods.
 
+## 📸 Screenshots
+
+### Dashboard Overview
+![Dashboard Overview](screenshots/dashboard_overview.png)
+
+### Delivery Performance Analysis
+![Delivery Analysis](screenshots/delivery_analysis.png)
+
+### Live Delay Risk Predictor -1
+![Delay Predictor](screenshots/delay_predictor_1.png)
+
+### Live Delay Risk Predictor -2
+![Delay Predictor](screenshots/delay_predictor_2.png)
+
+### Live Delay Risk Predictor -3
+![Delay Predictor](screenshots/delay_predictor_3.png)
+
 ## 🔍 Key Findings
 - **Only 45% of orders are delivered on time** overall, consistent across nearly 3 years of data
 - **Root cause:** First Class and Second Class shipping have unrealistic scheduled delivery windows (95% and 77% late respectively) — not inconsistent carrier performance, and not offset by any profit advantage
