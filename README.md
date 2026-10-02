@@ -3,7 +3,7 @@
 An end-to-end analytics and machine learning project analyzing a 180K+ record e-commerce supply chain dataset to diagnose delivery delays, forecast demand, and predict shipment risk — deployed as a live interactive dashboard.
 
 ## 🔗 Live Demo
-[View Dashboard](#) (https://rifling-plasma-kitten.ngrok-free.dev/#supply-chain-intelligence-and-risk-dashboard-using-ml)
+**[View Live Dashboard →](https://supply-chain-intelligence-risk-dashboard-using-ml-lipkmzhndkkf.streamlit.app/)**
 
 ## 📊 Project Overview
 This project analyzes the DataCo Smart Supply Chain dataset (180,516 orders, $36.7M in sales, 23 regions, 4 shipping modes) to answer: **why are deliveries late, and what can be done about it?**
